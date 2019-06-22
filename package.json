@@ -1,21 +1,23 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "scraper",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "scraper",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
-    "express-handlebars": "^3.1.0",
-    "mongoose": "^5.3.16",
-    "morgan": "^1.9.1"
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "mongoose": "^5.2.7",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
   }
 }
