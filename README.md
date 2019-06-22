@@ -1,3 +1,3 @@
-#Newspaper-scraper
+# Newspaper-scraper
 
-#Deployed link to Heroku
+# Deployed link to Heroku
